@@ -1,0 +1,57 @@
+body {
+background-color:#FF4580;
+}
+.cover {
+    background-color: #FFB3CB;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    justify-self: center;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 5px 5px 10px 10px #FFA8FC;
+    overflow: hidden;
+}
+.header {
+    
+    
+    justify-self: center;
+    padding-top: 60px;
+}
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 40px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 800;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: uppercase;
+}
+img{
+    padding-top: 1px;
+} 
+button{
+padding: 20px;
+width: 200px;
+border-radius: 18px;
+font-size: 30px;
+margin-left: 200px;
+margin-top: 100px;
+}
+.yes{
+    background-color:#F5459D;
+}
+.no{
+    background-color: #F5459D;
+    position: absolute;
+    transition: transform 0.1s linear;
+}
+.no:hover{
+     background-color: #FAD4D4;
+}
+.yes:hover{
+ background-color: #FAD4D4;
+} 
